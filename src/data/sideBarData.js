@@ -1,26 +1,30 @@
+import * as icons from 'react-icons/ai'
+
 export const links = [
     {
       name: 'Utilisateurs',
-      link : "/utilisateurs",
-      icon: "",
+      path : "/utilisateurs",
+      icon: <icons.AiOutlineUser/>,
     },
     {
       name: 'Regions',
-      link : "/regions",
-      icon: "",
+      path : "/regions",
+      icon: <icons.AiOutlineUser/>,
     },
     {
       name: 'Secteurs',
-      link : "/secteurs",
-      icon: "",
+      path : "/secteurs",
+      icon: <icons.AiOutlineUser/>,
     },
     {
       name: 'Perimetres',
-      link : "/perimetres",
-      icon: "",
+      path : "/perimetres",
+      icon: <icons.AiOutlineUser/>,
     },
     {
       name: 'Unites',
-      link : "/unites",
-      icon: "",
-    }]
+      path : "/unites",
+      icon: <icons.AiOutlineUser/>,
+    },
+    
+  ]

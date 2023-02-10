@@ -1,12 +1,17 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import { Perimetres, Regions, Secteurs, Utilisateurs, Unites  } from './pages';
+import { Sidebar } from './components';
+import {GridComponent, ColumnDirective, ColumnsDirective} from '@syncfusion/ej2-react-grids'
+import {employeesData} from './data/data'
+import "./app.css"
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-gray-100'>
       <BrowserRouter>
-       <div>
+       <div className='flex'>
+       <Sidebar/>
          <Routes>
           <Route path ="/" element={(<Utilisateurs/>)} />
           <Route path ="/utilisateurs" element={(<Utilisateurs/>)} />
