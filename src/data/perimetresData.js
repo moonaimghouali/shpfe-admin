@@ -1,6 +1,6 @@
 
 
-export const perimeteres = [
+export const perimetres = [
     {
       Id: 1,
       Nom : "Ghouali",
