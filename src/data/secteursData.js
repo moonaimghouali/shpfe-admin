@@ -1,97 +1,40 @@
 
 
 export const secteurs = [
-    {
-      Id: 1,
-      Nom : "Ghouali",
-      Prenom: "Abdel Mounaim",
-      Email : "ia_ghouali@esi.dz",
-      Role : "Admin",
-    },
-    {
-        Id: 2,
-        Nom : "Haoud",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 3,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 4,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 5,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 6,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 7,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 8,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 9,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 10,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 11,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 12,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      },
-      {
-        Id: 13,
-        Nom : "Ghouali",
-        Prenom: "Abdel Mounaim",
-        Email : "ia_ghouali@esi.dz",
-        Role : "Admin",
-      }
-
-    
-  ]
+  {
+    Id: 1,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+  {
+    Id: 2,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+  {
+    Id: 3,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+  {
+    Id: 4,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+  {
+    Id: 5,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+  {
+    Id: 6,
+    Code : "SEC_HMD",
+    Secteur: "Hassi Messaoud",
+    CodeRegion : "HMD"
+  },
+]

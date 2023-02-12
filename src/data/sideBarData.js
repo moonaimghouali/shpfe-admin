@@ -1,30 +1,32 @@
-import * as icons from 'react-icons/ai'
+import { FiUsers} from 'react-icons/fi'
+import {GiOilRig, GiOilPump} from 'react-icons/gi'
+import { TbBuildingFactory} from 'react-icons/tb'
 
 export const links = [
     {
       name: 'Utilisateurs',
       path : "/utilisateurs",
-      icon: <icons.AiOutlineUser/>,
+      icon: <FiUsers size={18}/>,
     },
     {
       name: 'Regions',
       path : "/regions",
-      icon: <icons.AiOutlineUser/>,
+      icon: <FiUsers size={18}/>,
     },
     {
       name: 'Secteurs',
       path : "/secteurs",
-      icon: <icons.AiOutlineUser/>,
+      icon: <FiUsers size={18}/>,
     },
     {
       name: 'Perimetres',
       path : "/perimetres",
-      icon: <icons.AiOutlineUser/>,
+      icon: <GiOilPump size={20}/>,
     },
     {
       name: 'Unites',
       path : "/unites",
-      icon: <icons.AiOutlineUser/>,
+      icon: <TbBuildingFactory size={18}/>,
     },
     
   ]
